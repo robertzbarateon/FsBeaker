@@ -36,3 +36,4 @@ else
   [ ! -e build.fsx ] && mono packages/FAKE/tools/FAKE.exe init.fsx
   mono packages/FAKE/tools/FAKE.exe $@ --fsiargs -d:MONO build.fsx 
 fi
+}
